@@ -17,5 +17,7 @@ It will open chrome window and it will grab required data from website and retur
 
 ## What's it doing?
 
-The script is using Listener module of Pynput Library to listen every keystroke and it is then stored to log.txt. Which is being uploaded to Google Drive (after authentication) by Drive's API Wrapper known as Pydrive.
+The script is using selenium for automation and scraping of zomato website. It loads up every page and scrape name,rating and cost for two person of a particular restaurant. It is then saved in table form and sorted by two values i.e rating and cost_for_two.
 
+### Note:
+This is not for commercial use because this data is from zomato's website so they can take actions against the user.
