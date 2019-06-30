@@ -7,7 +7,7 @@ By help of this script and zomato data we can order from better place with low c
 
 Run below script to install required libraries:
 
-     pip install -r requirements.txt
+     pip install -r requirement.txt
     
 To run the script:
 
